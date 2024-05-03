@@ -1,0 +1,12 @@
+{
+    "bail": 1,
+    "verbose": true,
+    "collectCoverage": true,
+    "coverageReporters": ["lcov", "text"],
+    "collectCoverageFrom": [
+        "src/**/*js",
+        "!src/reportWebVitals.js",
+        "!src/index.js"
+    ]
+   
+}
